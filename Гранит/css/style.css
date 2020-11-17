@@ -1,0 +1,532 @@
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding-top: 30px;
+    font-family: 'Gotham Pro';
+}
+
+.container {
+    max-width: 940px;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.logo {
+    display: flex;
+}
+
+.img-logo {
+    background: url("../images/logo.png") no-repeat;
+    width: 38px;
+    height: 40px;
+    margin-right: 14px;
+}
+
+.footer .img-logo {
+    background: url("../images/logo-footer.svg") no-repeat;
+}
+
+.logo-company {
+    margin: 0;
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #292929;
+}
+
+.logo-content span {
+    font-size: 11px;
+    line-height: 22px;
+    font-weight: 300;
+    color: #969696;
+}
+
+.callback {
+    display: flex;
+    align-items: center;
+}
+
+.callback-footer {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.contact {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+.number {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #292929;
+}
+
+.number-text {
+    font-size: 11px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #969696;
+}
+
+.button_call {
+    background: none;
+    border: 2px solid #292929;
+    padding: 7px 25px;
+    color: #292929;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 22px;
+    cursor: pointer;
+}
+
+.navbar {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffcc00;
+    padding: 0px 20px;
+    position: relative;
+    z-index: 1;
+}
+  
+.navbar li {
+    /*padding: 21px 39px; */
+    /* margin-right: 75px; */
+    list-style-type: none;
+    /* width: 120px; */
+}
+  
+.navbar li:last-child {
+    margin-right: 0px;
+}
+  
+.navbar li a {
+    text-decoration: none;
+    padding: 21px 39px;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    white-space: nowrap;
+}
+
+.promo-slide {
+    background: url("../images/slide.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    min-height: 550px;
+    z-index: 0;
+    margin-top: -30px;
+    display: flex;
+}
+
+.overlay:before {
+    content: '';
+    display: block;
+    background: rgb(0,0,0, 0.5);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.container-promo {
+	flex: 1;
+}
+
+.promo-title {
+    color: #fff;
+    font-size: 36px;
+    line-height: 49px;
+    text-transform: uppercase;
+    margin-top: 0px;
+    font-weight: 700;
+}
+
+.promo-text {
+    width: 265px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    color: #fff;
+    margin-bottom: 60px;
+}
+
+.button {
+    background: #FFD200;
+    padding: 14px 30px;
+    border: none;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 22px;
+    cursor: pointer;
+}
+
+.link-katalog {
+    color: #fff;
+    margin-left: 30px;
+    font-size: 14px;
+}
+
+.link-katalog:last-child {
+    margin-left: 8px;
+    font-weight: 600;
+}
+
+.heading-title {
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #292929;
+    margin: 0;
+}
+
+.features {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.features-img {
+    margin-bottom: 25px;
+}
+
+.advantages {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.advantage-title {
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.card-item {
+    margin-left: 20px;
+}
+
+.card-item:first-child {
+    margin-left: 0;
+}
+
+.card-title {
+    font-size: 15px;
+    line-height: 1.2;
+    font-weight: 600;
+    text-decoration: underline;
+    color: #292929;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.card-info {
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 300;
+    color: #292929;
+    margin: 0;
+    max-width: 260px;
+}
+
+.price {
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #0f0f0f;
+    margin-top: 19px;
+    margin-bottom: 32px;
+}
+
+.button-details {
+    width: 180px;
+}
+
+.card {
+    padding: 38px 18px;
+    border: 1px solid #ffff;
+}
+
+.advantages {
+    background-color: #f4f4f4;
+    color: #292929;
+}
+
+.advantage-img {
+    margin-bottom: 30px;
+}
+
+.advantage-card {
+    border: 2px solid #ffffff;
+}
+
+.advantage-card:hover {
+    background-color: #ffffff;
+    box-shadow: 0px 9px 21px 0px rgba(0,0,0,0.05);
+    cursor: pointer;
+}
+
+.products {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.product-img {
+    margin-bottom: 22px;
+}
+
+.products-title {
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.products-card {
+    margin-left: 18px;
+    padding: 20px;
+    position: relative;
+}
+
+.products-card:first-child {
+    margin-left: 0;
+}
+
+.services {
+    background-color: #f4f4f4;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.services-img {
+    margin-bottom: 30px;
+}
+
+.services-title {
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.services-card {
+    padding: 48px;
+    border: 2px solid #ffffff;
+}
+
+.action {
+    background: #ff0000;
+    color: #fff;
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 500;
+    padding: 6px 10px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.old-price {
+    font-size: 10px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #979797;
+    margin-right: 14px;
+}
+
+.new-price {
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #ff0000;
+}
+
+.company-map {
+    background: url("../images/company_office.png");
+    background-repeat: no-repeat;
+    padding: 80px;
+    position: relative;
+}
+
+.contacts-company {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title-contact {
+    margin-bottom: 53px;
+}
+
+.contacts {
+    background: #fff;
+    padding: 50px 70px;
+}
+
+.title-contact {
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #292929;
+}
+
+.company-address {
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #292929;
+}
+
+.features-title {
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.contact-row {
+    position: relative;
+    padding-left: 30px;
+}
+
+.contact-row:before {
+    content: '';
+    position: absolute;
+    height: 20px;
+    width: 16px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 0;
+    left: 0;
+}
+
+.contact-row:first-child:before {
+    background-image: url("../images/phone-contact.png");
+}
+
+.contact-row:nth-child(2):before {
+    background-image: url("../images/location-pin-icon.png");
+}
+
+.contact-row:nth-child(3):before {
+    background-image: url("../images/email-icon.png");
+}
+
+.phone-content {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #292929;
+    margin-bottom: 40px;
+}
+
+.phone-contact {
+    margin-bottom: 15px;
+}
+
+.phone-contact:last-child {
+    margin-bottom: 0;
+}
+
+.address-contact {
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #292929;
+    margin-bottom: 40px;
+}
+
+.email-contact {
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-decoration: underline;
+    color: #292929;
+}
+
+.footer {
+    background-color: #292929;
+    padding: 35px;
+}
+
+.footer-contact {
+    color: #fff;
+}
+
+.footer-contact-button {
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-footer h1 {
+    color: #fff;
+}
+
+.logo-footer span {
+    color: #fff;
+}
+
+.copyright {
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 55px;
+}
+
+.contact-footer {
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 802px;
+    }
+}
+
+@media (max-width: 700px) {
+    .container {
+        max-width: 90%;
+    }
+    .navbar {
+        display: none;
+    }
+    .callback {
+        display: none;
+    }
+}
